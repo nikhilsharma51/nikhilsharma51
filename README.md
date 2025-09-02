@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi, I'm Nikhil Sharma
 
-<!--
-**nikhilsharma51/nikhilsharma51** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A B.Tech IT student interested in development, AI, and building useful projects.  
+Right now, I'm learning the MERN stack and experimenting with AI-powered applications.  
+I enjoy working on ideas that can grow into practical solutions and help me improve as a developer.
 
-Here are some ideas to get you started:
+## Technologies & Tools
+- Languages: C++, JavaScript, Python  
+- Web: HTML, CSS, React, Node.js, Express  
+- Database: MongoDB, MySQL  
+- Tools: Git, VS Code, Postman  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## GitHub Stats
+![Nikhil's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=default)
+
+## Connect with Me
+- [LinkedIn](www.linkedin.com/in/nikhil-sharma-7914512b1)  
+
+
+Thanks for stopping by!
