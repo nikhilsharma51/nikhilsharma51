@@ -10,8 +10,6 @@ I enjoy working on ideas that can grow into practical solutions and help me impr
 - Database: MongoDB, MySQL  
 - Tools: Git, VS Code, Postman  
 
-## GitHub Stats
-![Nikhil's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=default)
 
 ## Connect with Me
 - [LinkedIn](www.linkedin.com/in/nikhil-sharma-7914512b1)  
