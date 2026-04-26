@@ -1,18 +1,52 @@
-# Hi, I'm Nikhil Sharma
+# Nikhil Sharma
 
-A B.Tech IT student interested in development, AI, and building useful projects.  
-Right now, I'm learning the MERN stack and experimenting with AI-powered applications.  
-I enjoy working on ideas that can grow into practical solutions and help me improve as a developer.
+Engineering student (Information Technology)
+Focused on full-stack development and moving toward agentic AI systems.
 
-## Technologies & Tools
-- Languages: C++, JavaScript, Python  
-- Web: HTML, CSS, React, Node.js, Express  
-- Database: MongoDB, MySQL  
-- Tools: Git, VS Code, Postman  
+---
 
+## About
 
-## Connect with Me
-- [LinkedIn](www.linkedin.com/in/nikhil-sharma-7914512b1)  
+I’m currently building a strong foundation in full-stack development while exploring how AI can be integrated into real-world applications. My current focus is on backend systems, APIs, and retrieval-based AI workflows.
 
+Open to internships and collaboration opportunities where I can contribute and continue learning.
 
-Thanks for stopping by!
+---
+
+## Tech Stack
+
+**Languages**
+JavaScript · Python
+
+**Frontend**
+HTML · CSS · React
+
+**Backend**
+Node.js · Express
+
+**Tools & Platforms**
+Git · Supabase
+
+**AI / ML (Learning & Exploring)**
+LangChain · Retrieval-Augmented Generation (RAG)
+
+---
+
+## Current Focus
+
+* Full-stack application development (MERN ecosystem)
+* Backend architecture and API design
+* Building AI-powered workflows using RAG
+* Exploring agentic AI systems
+
+---
+
+## GitHub Stats
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nikhilsharma51\&layout=compact\&hide_border=true)
+
+---
+
+## Contact
+
+If you're working on something interesting or have an opportunity, feel free to reach out.
