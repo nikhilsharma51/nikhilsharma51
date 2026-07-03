@@ -50,3 +50,4 @@ LangChain · Retrieval-Augmented Generation (RAG) · Langgraph
 ## Contact
 
 If you're working on something interesting or have an opportunity, feel free to reach out.
+email - nikhilsharma721764@gmail.com
