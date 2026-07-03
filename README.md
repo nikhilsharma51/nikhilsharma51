@@ -16,27 +16,27 @@ Open to internships and collaboration opportunities where I can contribute and c
 ## Tech Stack
 
 **Languages**
-JavaScript · Python
+JavaScript · Python ·Typescript ·C/C++
 
 **Frontend**
-HTML · CSS · React
+HTML · CSS · React ·Nextjs 
 
 **Backend**
-Node.js · Express
+Node.js · Express · MongoDB
 
 **Tools & Platforms**
 Git · Supabase
 
 **AI / ML (Learning & Exploring)**
-LangChain · Retrieval-Augmented Generation (RAG)
+LangChain · Retrieval-Augmented Generation (RAG) · Langgraph
 
 ---
 
 ## Current Focus
 
-* Full-stack application development (MERN ecosystem)
+* Full-stack application development (MERN ecosystem and Nextjs)
 * Backend architecture and API design
-* Building AI-powered workflows using RAG
+* Building AI-powered workflows using RAG,Generative AI and Agentic AI
 * Exploring agentic AI systems
 
 ---
