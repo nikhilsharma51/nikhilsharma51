@@ -25,7 +25,7 @@ HTML · CSS · React ·Nextjs
 Node.js · Express · MongoDB
 
 **Tools & Platforms**
-Git · Supabase
+Git · Supabase  · Prisma
 
 **AI / ML (Learning & Exploring)**
 LangChain · Retrieval-Augmented Generation (RAG) · Langgraph
