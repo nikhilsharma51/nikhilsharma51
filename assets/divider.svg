@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 30" width="830" height="30">
+    
     <style>
         :root {
             --accent: #58A6FF;
+            --accent-deep: #003D99;
+            --accent-soft: #3399FF;
             --bg: #0D1117;
+            --surface: #161B22;
+            --ink: #C9D1D9;
+            --muted: #8B949E;
             --grid: #30363D;
         }
         @media (prefers-color-scheme: light) {
             :root {
                 --accent: #0066CC;
+                --accent-deep: #003D99;
+                --accent-soft: #3399FF;
                 --bg: #FFFFFF;
+                --surface: #F6F8FA;
+                --ink: #24292F;
+                --muted: #57606A;
                 --grid: #D0D7DE;
             }
         }
+    </style>
+    
+    <style>
         .divider-line { stroke: var(--accent); stroke-width: 2; }
         .moving-dot { animation: move-dot 3s ease-in-out infinite; }
         @keyframes move-dot {

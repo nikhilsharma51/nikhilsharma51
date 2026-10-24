@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 150" width="830" height="150">
+    
     <style>
         :root {
             --accent: #58A6FF;
+            --accent-deep: #003D99;
+            --accent-soft: #3399FF;
             --bg: #0D1117;
             --surface: #161B22;
             --ink: #C9D1D9;
@@ -12,6 +15,8 @@
         @media (prefers-color-scheme: light) {
             :root {
                 --accent: #0066CC;
+                --accent-deep: #003D99;
+                --accent-soft: #3399FF;
                 --bg: #FFFFFF;
                 --surface: #F6F8FA;
                 --ink: #24292F;
@@ -19,6 +24,9 @@
                 --grid: #D0D7DE;
             }
         }
+    </style>
+    
+    <style>
         .stats-bg { fill: var(--surface); }
         .stats-border { stroke: var(--grid); stroke-width: 1; fill: none; }
         .stats-label { font-family: system-ui, sans-serif; font-size: 14px; fill: var(--muted); font-weight: 500; }
@@ -42,5 +50,5 @@
     <text class="stats-value" x="600" y="75">Loading...</text>
     
     <!-- Update Time -->
-    <text class="stats-label" x="40" y="130">Last updated: 2026-10-24 11:30 UTC</text>
+    <text class="stats-label" x="40" y="130">Last updated: 2026-10-24 07:21 UTC</text>
 </svg>
