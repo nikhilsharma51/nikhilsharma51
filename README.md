@@ -1,4 +1,4 @@
-![Nikhil Sharma](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/hero-banner.svg)
+![Nikhil Sharma](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/assets/hero-banner.svg)
 
 ---
 
@@ -10,7 +10,7 @@ I'm driven by the intersection of backend architecture and machine learning, cur
 
 ---
 
-![Divider](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/divider.svg)
+![Divider](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/assets/divider.svg)
 
 ## Tech Stack
 
@@ -34,15 +34,15 @@ I'm driven by the intersection of backend architecture and machine learning, cur
 
 ---
 
-![Divider](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/divider.svg)
+![Divider](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/assets/divider.svg)
 
 ## Tech Stack Distribution
 
-![Language Chart](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/language-chart.svg)
+![Language Chart](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/assets/language-chart.svg)
 
 ---
 
-![Divider](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/divider.svg)
+![Divider](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/assets/divider.svg)
 
 ## Current Focus
 
@@ -54,19 +54,19 @@ I'm driven by the intersection of backend architecture and machine learning, cur
 
 ---
 
-![Divider](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/divider.svg)
+![Divider](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/assets/divider.svg)
 
 ## Profile Overview
 
-![ASCII Profile](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/ascii-profile.svg)
+![ASCII Profile](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/assets/ascii-profile.svg)
 
 ---
 
-![Divider](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/divider.svg)
+![Divider](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/assets/divider.svg)
 
 ## Statistics
 
-![Stats Card](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/stats-card.svg)
+![Stats Card](https://raw.githubusercontent.com/nikhilsharma51/nikhilsharma51/output/assets/stats-card.svg)
 
 ---
 
