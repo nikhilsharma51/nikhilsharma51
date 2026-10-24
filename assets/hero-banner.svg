@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 200" width="830" height="200">
+    
     <style>
         :root {
             --accent: #58A6FF;
@@ -23,6 +24,9 @@
                 --grid: #D0D7DE;
             }
         }
+    </style>
+    
+    <style>
         .hero-bg { fill: var(--bg); }
         .hero-border { stroke: var(--accent); stroke-width: 2; fill: none; }
         .hero-name { font-family: system-ui, sans-serif; font-size: 48px; font-weight: 700; fill: var(--accent); }
