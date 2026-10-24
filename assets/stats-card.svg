@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 150" width="830" height="150">
+    <style>
+        :root {
+            --accent: #58A6FF;
+            --bg: #0D1117;
+            --surface: #161B22;
+            --ink: #C9D1D9;
+            --muted: #8B949E;
+            --grid: #30363D;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --accent: #0066CC;
+                --bg: #FFFFFF;
+                --surface: #F6F8FA;
+                --ink: #24292F;
+                --muted: #57606A;
+                --grid: #D0D7DE;
+            }
+        }
+        .stats-bg { fill: var(--surface); }
+        .stats-border { stroke: var(--grid); stroke-width: 1; fill: none; }
+        .stats-label { font-family: system-ui, sans-serif; font-size: 14px; fill: var(--muted); font-weight: 500; }
+        .stats-value { font-family: system-ui, sans-serif; font-size: 24px; fill: var(--accent); font-weight: 700; }
+    </style>
+    
+    <!-- Background -->
+    <rect class="stats-bg" width="830" height="150"/>
+    <rect class="stats-border" x="0" y="0" width="830" height="150" rx="4"/>
+    
+    <!-- Stat 1 -->
+    <text class="stats-label" x="40" y="35">Contributions (This Year)</text>
+    <text class="stats-value" x="40" y="75">Loading...</text>
+    
+    <!-- Stat 2 -->
+    <text class="stats-label" x="350" y="35">Public Repos</text>
+    <text class="stats-value" x="350" y="75">Loading...</text>
+    
+    <!-- Stat 3 -->
+    <text class="stats-label" x="600" y="35">Total Stars</text>
+    <text class="stats-value" x="600" y="75">Loading...</text>
+    
+    <!-- Update Time -->
+    <text class="stats-label" x="40" y="130">Last updated: 2026-10-24 11:30 UTC</text>
+</svg>

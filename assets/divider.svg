@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 30" width="830" height="30">
+    <style>
+        :root {
+            --accent: #58A6FF;
+            --bg: #0D1117;
+            --grid: #30363D;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --accent: #0066CC;
+                --bg: #FFFFFF;
+                --grid: #D0D7DE;
+            }
+        }
+        .divider-line { stroke: var(--accent); stroke-width: 2; }
+        .moving-dot { animation: move-dot 3s ease-in-out infinite; }
+        @keyframes move-dot {
+            0% { cx: 50; }
+            50% { cx: 780; }
+            100% { cx: 50; }
+        }
+        .pulse-glow { animation: glow 2s ease-in-out infinite; }
+        @keyframes glow {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+    </style>
+    
+    <!-- Background -->
+    <rect fill="var(--bg)" width="830" height="30"/>
+    
+    <!-- Horizontal Line -->
+    <line x1="0" y1="15" x2="830" y2="15" class="divider-line" opacity="0.3"/>
+    
+    <!-- Moving Dot -->
+    <circle class="moving-dot pulse-glow" cy="15" r="6" fill="var(--accent)"/>
+    
+    <!-- Accent Line Under -->
+    <line x1="0" y1="23" x2="830" y2="23" stroke="var(--accent)" stroke-width="1" opacity="0.1"/>
+</svg>

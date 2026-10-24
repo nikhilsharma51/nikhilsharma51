@@ -1,0 +1,56 @@
+name: ✅ README Verification
+
+on:
+  push:
+    paths:
+      - "README.md"
+      - "scripts/verify_readme.py"
+      - ".github/workflows/verify.yml"
+  pull_request:
+    paths:
+      - "README.md"
+      - "scripts/verify_readme.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🔍 Verify README.md
+        run: |
+          python scripts/verify_readme.py
+
+      - name: 📋 Check asset references
+        run: |
+          echo "Checking if all asset references exist..."
+          assets_dir="assets"
+          if [ -d "$assets_dir" ]; then
+            echo "✓ Assets directory exists"
+            ls -la $assets_dir
+          else
+            echo "⚠️  Assets directory not yet generated (first run)"
+          fi
+
+      - name: ✅ Verification passed
+        run: |
+          echo "✅ README verification successful"

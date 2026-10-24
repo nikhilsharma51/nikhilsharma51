@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 250" width="830" height="250">
+    <style>
+        :root {
+            --accent: #58A6FF;
+            --bg: #0D1117;
+            --surface: #161B22;
+            --ink: #C9D1D9;
+            --muted: #8B949E;
+            --grid: #30363D;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --accent: #0066CC;
+                --bg: #FFFFFF;
+                --surface: #F6F8FA;
+                --ink: #24292F;
+                --muted: #57606A;
+                --grid: #D0D7DE;
+            }
+        }
+        .ascii-bg { fill: var(--surface); }
+        .ascii-border { stroke: var(--grid); stroke-width: 1; fill: none; }
+        .ascii-text { font-family: 'Courier New', monospace; font-size: 10px; fill: var(--accent); line-height: 1.2; }
+        .ascii-title { font-family: system-ui, sans-serif; font-size: 14px; fill: var(--ink); font-weight: 600; }
+    </style>
+    
+    <!-- Background -->
+    <rect class="ascii-bg" width="830" height="250"/>
+    <rect class="ascii-border" x="1" y="1" width="828" height="248" rx="4"/>
+    
+    <!-- Title -->
+    <text class="ascii-title" x="20" y="25">Profile | nikhilsharma51</text>
+    
+    <!-- ASCII Art -->
+    <text class="ascii-text" x="20" y="50">╔════════════════════════════════════════════════════════════╗</text>
+    <text class="ascii-text" x="20" y="65">║                                                            ║</text>
+    <text class="ascii-text" x="20" y="80">║   NIKHIL SHARMA                                            ║</text>
+    <text class="ascii-text" x="20" y="95">║   Full-Stack Developer · AI/ML Explorer                   ║</text>
+    <text class="ascii-text" x="20" y="110">║   Building Agentic Systems                               ║</text>
+    <text class="ascii-text" x="20" y="125">║                                                            ║</text>
+    <text class="ascii-text" x="20" y="140">║   ► Frontend  : React, Next.js, TypeScript                ║</text>
+    <text class="ascii-text" x="20" y="155">║   ► Backend   : Node.js, Express, Python                 ║</text>
+    <text class="ascii-text" x="20" y="170">║   ► AI/ML     : LangChain, RAG, Agentic AI               ║</text>
+    <text class="ascii-text" x="20" y="185">║                                                            ║</text>
+    <text class="ascii-text" x="20" y="200">║   Location: Delhi | Open to Internships & Opportunities  ║</text>
+    <text class="ascii-text" x="20" y="215">║                                                            ║</text>
+    <text class="ascii-text" x="20" y="230">╚════════════════════════════════════════════════════════════╝</text>
+</svg>
