@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 200" width="830" height="200">
+    <style>
+        :root {
+            --accent: #58A6FF;
+            --accent-deep: #003D99;
+            --accent-soft: #3399FF;
+            --bg: #0D1117;
+            --surface: #161B22;
+            --ink: #C9D1D9;
+            --muted: #8B949E;
+            --grid: #30363D;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --accent: #0066CC;
+                --accent-deep: #003D99;
+                --accent-soft: #3399FF;
+                --bg: #FFFFFF;
+                --surface: #F6F8FA;
+                --ink: #24292F;
+                --muted: #57606A;
+                --grid: #D0D7DE;
+            }
+        }
+        .hero-bg { fill: var(--bg); }
+        .hero-border { stroke: var(--accent); stroke-width: 2; fill: none; }
+        .hero-name { font-family: system-ui, sans-serif; font-size: 48px; font-weight: 700; fill: var(--accent); }
+        .hero-tagline { font-family: system-ui, sans-serif; font-size: 20px; fill: var(--muted); }
+        .typing-cursor { animation: blink 1s infinite; }
+        @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+        .typing-clip {
+            animation: reveal 6s steps(40) infinite;
+        }
+        @keyframes reveal {
+            0% { width: 0; }
+            60% { width: 100%; }
+            100% { width: 100%; }
+        }
+    </style>
+    
+    <!-- Background -->
+    <rect class="hero-bg" width="830" height="200"/>
+    <rect class="hero-border" x="1" y="1" width="828" height="198" rx="8"/>
+    
+    <!-- Name -->
+    <text class="hero-name" x="40" y="60">Nikhil Sharma</text>
+    
+    <!-- Typing Animation -->
+    <g>
+        <defs>
+            <clipPath id="typing-clip">
+                <rect class="typing-clip" x="0" y="0" width="0" height="35"/>
+            </clipPath>
+        </defs>
+        <text class="hero-tagline" x="40" y="110" clip-path="url(#typing-clip)">Full-Stack Developer · AI/ML Explorer · Building Agentic Systems</text>
+        <text class="hero-tagline typing-cursor" x="40" y="110">_</text>
+    </g>
+</svg>

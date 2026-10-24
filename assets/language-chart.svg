@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 180" width="830" height="180">
+    <style>
+        :root {
+            --accent: #58A6FF;
+            --accent-soft: #3399FF;
+            --accent-deep: #003D99;
+            --bg: #0D1117;
+            --ink: #C9D1D9;
+            --muted: #8B949E;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --accent: #0066CC;
+                --accent-soft: #3399FF;
+                --accent-deep: #003D99;
+                --bg: #FFFFFF;
+                --ink: #24292F;
+                --muted: #57606A;
+            }
+        }
+        .chart-bg { fill: var(--bg); }
+        .chart-label { font-family: system-ui, sans-serif; font-size: 14px; fill: var(--ink); font-weight: 600; }
+        .chart-bar { animation: grow 1s ease-out forwards; }
+        .bar-1 { --bar-width: 85%; }
+        .bar-2 { --bar-width: 75%; }
+        .bar-3 { --bar-width: 80%; }
+        @keyframes grow {
+            from { width: 0%; }
+            to { width: var(--bar-width); }
+        }
+        .tech-text { font-family: system-ui, sans-serif; font-size: 12px; fill: var(--muted); }
+    </style>
+    
+    <!-- Background -->
+    <rect class="chart-bg" width="830" height="180"/>
+    
+    <!-- Chart Title -->
+    <text class="chart-label" x="20" y="25">Tech Stack Distribution</text>
+    
+    <!-- Frontend Bar -->
+    <text class="chart-label" x="20" y="65">Frontend</text>
+    <rect class="chart-bar bar-1" x="200" y="50" height="20" fill="var(--accent)" rx="3" style="width: var(--bar-width);"/>
+    <text class="tech-text" x="710" y="65">6 items</text>
+    
+    <!-- Backend Bar -->
+    <text class="chart-label" x="20" y="120">Backend</text>
+    <rect class="chart-bar bar-2" x="200" y="105" height="20" fill="var(--accent-soft)" rx="3" style="width: var(--bar-width);"/>
+    <text class="tech-text" x="710" y="120">5 items</text>
+    
+    <!-- AI/ML Bar -->
+    <text class="chart-label" x="20" y="175">AI/ML</text>
+    <rect class="chart-bar bar-3" x="200" y="160" height="20" fill="var(--accent-deep)" rx="3" style="width: var(--bar-width);"/>
+    <text class="tech-text" x="710" y="175">5 items</text>
+</svg>
